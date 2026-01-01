@@ -7,7 +7,16 @@ train.py - this is the main training script with Validation monitoring, Early st
 inference.py - used to make predictions on unseen data either for a single frame or multiple frames together
 requirements.txt - Dependencies (PyTorch, torchvision, etc.)
 test_model.py - Quick test script to verify model architecture
+example_usage.py - Usage examples and documentation
 
+To use the model
+Install dependencies:
+   pip install -r requirements.txt
+
+Train the model:
+   python train.py
+Or with custom parameters:
+   python train.py --batch-size 64 --epochs 100 --learning-rate 0.0001
 
 Use the below code to test the model
 
