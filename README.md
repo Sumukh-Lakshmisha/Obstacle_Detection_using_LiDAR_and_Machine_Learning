@@ -25,3 +25,6 @@ python inference.py --model-path checkpoints/best_model.pth --image-dir Data/thr
 
 To run on one frame
 python inference.py --model-path checkpoints/best_model.pth --image-path Data/threat/ss1.png
+
+Find the link below for the dataset used
+https://drive.google.com/drive/folders/1NImh-GdXEseTdd9qUjNx1_S1O6GrALoP?usp=drive_link
